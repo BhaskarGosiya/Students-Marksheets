@@ -1,0 +1,10 @@
+<openerp>
+	<data>
+
+		<menuitem id="root_students_menu" name="Students" />
+
+		<menuitem id="side_students_menu_one" name="Students" parent="root_students_menu" />
+
+		<menuitem id="sub_students_menu_one" name="Students Info." parent="side_students_menu_one" action="action_student_student" />
+	</data>
+</openerp>
